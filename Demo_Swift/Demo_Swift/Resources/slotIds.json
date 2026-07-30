@@ -33,6 +33,16 @@
         "name": "开屏-mintegral",
         "adSlotId": "4291116760884064",
         "adType": 2
+    },
+    {
+        "name": "开屏-酷盈",
+        "adSlotId": "2872931439997788",
+        "adType": 2
+    },
+    {
+        "name": "开屏-布鲁肯",
+        "adSlotId": "5942345148172605",
+        "adType": 2
     }],
     "banner_ad": [{
         "name": "AdMob_横幅广告",
@@ -57,6 +67,16 @@
     {
         "name": "unity-banner",
         "adSlotId": "7556519713337932",
+        "adType": 7
+    },
+    {
+        "name": "横幅-酷盈",
+        "adSlotId": "8666197173212995",
+        "adType": 7
+    },
+    {
+        "name": "横幅-布鲁肯",
+        "adSlotId": "9878417435939822",
         "adType": 7
     }],
     "reward_ad": [{
@@ -103,6 +123,16 @@
         "name": "激励视频-unity",
         "adSlotId": "1728642467353555",
         "adType": 1
+    },
+    {
+        "name": "激励视频-酷盈",
+        "adSlotId": "1213329893292987",
+        "adType": 1
+    },
+    {
+        "name": "激励视频-布鲁肯",
+        "adSlotId": "3727828842189788",
+        "adType": 1
     }],
     "intersititial_ad": [{
         "name": "AdMob_插屏广告_视频",
@@ -137,6 +167,16 @@
     {
         "name": "腾讯广告_插屏广告_视频",
         "adSlotId": "1664612139766065",
+        "adType": 4
+    },
+    {
+        "name": "插屏-酷盈",
+        "adSlotId": "8882553477162396",
+        "adType": 4
+    },
+    {
+        "name": "插屏-布鲁肯",
+        "adSlotId": "8859552423847192",
         "adType": 4
     }],
     "native_ad": [{
@@ -192,6 +232,26 @@
     {
         "name": "快手广告_原生广告_Draw",
         "adSlotId": "6321362398819916",
+        "adType": 5
+    },
+    {
+        "name": "原生自渲染-酷盈",
+        "adSlotId": "5266848395984174",
+        "adType": 5
+    },
+    {
+        "name": "原生自渲染-布鲁肯",
+        "adSlotId": "4638145233297992",
+        "adType": 5
+    },
+    {
+        "name": "原生模版-酷盈",
+        "adSlotId": "6724449263551582",
+        "adType": 5
+    },
+    {
+        "name": "原生模版-布鲁肯",
+        "adSlotId": "4531966626535417",
         "adType": 5
     }]
 }

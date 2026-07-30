@@ -10,7 +10,7 @@ import WindMillSDK
 
 extension WindMillAdInfo {
     func adnId() -> String {
-        return "\(networkName)[\(networkId.rawValue)]-\(networkPlacementId)"
+        return "\(networkName)[\(networkId)]-\(networkPlacementId)"
     }
 }
 

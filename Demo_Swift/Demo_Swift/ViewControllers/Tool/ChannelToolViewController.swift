@@ -42,11 +42,11 @@ class ChannelToolViewController: BaseFormViewController {
         ["title": "BeiZiSDK", "version": BeiZiSDKManager.sdkVersion()],
         ["title": "QuMeng", "version": QuMengAdSDKManager.sdkVersion()],
         ["title": "GroMore", "version": BUAdSDKManager.sdkVersion],
-        ["title": "Admob", "version": GADGetStringFromVersionNumber(GADMobileAds.sharedInstance().versionNumber)],
-        ["title": "IronSource", "version": IronSource.sdkVersion()],
-        ["title": "UnityAds", "version": UnityAds.getVersion()],
-        ["title": "Vungle", "version": VungleAds.sdkVersion],
-        ["title": "AppLovin", "version": ALSdk.version()],
+//        ["title": "Admob", "version": GADGetStringFromVersionNumber(GADMobileAds.sharedInstance().versionNumber)],
+//        ["title": "IronSource", "version": IronSource.sdkVersion()],
+//        ["title": "UnityAds", "version": UnityAds.getVersion()],
+//        ["title": "Vungle", "version": VungleAds.sdkVersion],
+//        ["title": "AppLovin", "version": ALSdk.version()],
     ]
     
     override func viewDidLoad() {

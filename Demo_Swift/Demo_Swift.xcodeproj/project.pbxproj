@@ -33,6 +33,8 @@
 		C70360F32E6AC0A800A78C35 /* WindMillMercuryAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillMercuryAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70D36F72E83DE7700A6107A /* WindMillMTGAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillMTGAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70D37532E83EBF800A6107A /* WindMillAdmobAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillAdmobAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C732825D301B796D004E6545 /* WindMillSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7328261301B79DB004E6545 /* WindMillKuyingAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillKuyingAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74FA9F82E8675F600111DF2 /* WindMillInmobiAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillInmobiAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74FA9FF2E86760D00111DF2 /* WindMillPangleAdAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillPangleAdAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C763F24B2E84E0DE00F45C2C /* WindMillIronSourceAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WindMillIronSourceAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,8 @@
 		6CA7FB1BE4C5DC7BEC010BC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7328261301B79DB004E6545 /* WindMillKuyingAdapter.framework */,
+				C732825D301B796D004E6545 /* WindMillSDK.framework */,
 				C74FA9FF2E86760D00111DF2 /* WindMillPangleAdAdapter.framework */,
 				C74FA9F82E8675F600111DF2 /* WindMillInmobiAdapter.framework */,
 				C7E9AC552E851F0B00AF9C44 /* WindMillVungleAdapter.framework */,
@@ -184,6 +188,7 @@
 				C793D3D52E3723E600FA8283 /* Frameworks */,
 				C793D3D62E3723E600FA8283 /* Resources */,
 				A09F0BBE9A7FF2133B792BCA /* [CP] Embed Pods Frameworks */,
+				F548BC6018B15A7EA1E0A7D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +292,27 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F548BC6018B15A7EA1E0A7D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo_Swift/Pods-Demo_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -369,8 +395,6 @@
 					"-framework",
 					"\"BaiduMobAdSDK\"",
 					"-framework",
-					"\"BeiZiFoundation\"",
-					"-framework",
 					"\"BeiZiSDK\"",
 					"-framework",
 					"\"CFNetwork\"",
@@ -520,6 +544,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sigmob.iosdemo.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -597,8 +625,6 @@
 					"-framework",
 					"\"BaiduMobAdSDK\"",
 					"-framework",
-					"\"BeiZiFoundation\"",
-					"-framework",
 					"\"BeiZiSDK\"",
 					"-framework",
 					"\"CFNetwork\"",
@@ -748,6 +774,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sigmob.iosdemo.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;

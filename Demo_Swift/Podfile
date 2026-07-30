@@ -23,7 +23,7 @@ end
 
 
 def adCommonPods
-  pod 'ToBid-iOS-RC', '5.3.4', :subspecs => [
+  pod 'ToBid-iOS-RC', '5.8.0', :subspecs => [
     'BidResultAdapter',
     'CSJAdapter',
     'GromoreAdapter',
@@ -36,10 +36,16 @@ def adCommonPods
     'OctopusAdapter',
     'JADYunAdapter',
     'QuMengAdapter',
-    'AdScopeAdapter',
     'PTGAdapter',
     'WangMaiAdapter',
     'JuTuiAdapter',
+    'KuyingAdapter',
+    'BulukenAdapter',
+    'AdmobAdapter',
+    'IronSourceAdapter',
+    'AppLovinAdapter',
+    'UnityAdsAdapter',
+    'VungleAdapter',
 ]
 end
 

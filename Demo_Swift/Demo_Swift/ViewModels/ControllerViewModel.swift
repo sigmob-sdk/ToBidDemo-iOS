@@ -220,6 +220,8 @@ class ControllerViewModel {
             SegmentItem<Int32>(name: "JADYun", value: 40),
             SegmentItem<Int32>(name: "Octopus", value: 41),
             SegmentItem<Int32>(name: "Mercury", value: 42),
+            SegmentItem<Int32>(name: "Kuying", value: 50),
+            SegmentItem<Int32>(name: "Buluken", value: 51),
             SegmentItem<Int32>(name: "ToBidADX", value: 999),
         ]
     }
