@@ -47,6 +47,7 @@ class ViewCreator : AWMMediatedNativeAdViewCreator {
         if _imageView == nil {
             let imageView = UIImageView()
             imageView.isUserInteractionEnabled = true
+            imageView.contentMode = .scaleAspectFit
             _imageView = imageView
             if let firstImageURLString = imageViewArray.first?.imageURL,
                let imgURL = URL(string: firstImageURLString) {
@@ -68,6 +69,7 @@ class ViewCreator : AWMMediatedNativeAdViewCreator {
             for image in imageViewArray {
                 var imageView = UIImageView()
                 imageView.isUserInteractionEnabled = true
+                imageView.contentMode = .scaleAspectFit
                 if let URLString = image.imageURL,
                    let imgURL = URL(string: URLString) {
                     imageView.sm_setImage(with: imgURL, placeholderImage: self.altImage)

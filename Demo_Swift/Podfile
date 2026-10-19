@@ -17,13 +17,13 @@ def commonPods
   pod 'KeychainAccess', '4.2.2'
   pod 'MJRefresh', '3.7.9'
   pod 'PopupDialog', '~> 1.1'
-  pod 'WechatOpenSDK-XCFramework'
+#  pod 'WechatOpenSDK-XCFramework'
   
 end
 
 
 def adCommonPods
-  pod 'ToBid-iOS-RC', '5.8.0', :subspecs => [
+  pod 'ToBid-iOS-RC', '5.10.0', :subspecs => [
     'BidResultAdapter',
     'CSJAdapter',
     'GromoreAdapter',
@@ -46,6 +46,7 @@ def adCommonPods
     'AppLovinAdapter',
     'UnityAdsAdapter',
     'VungleAdapter',
+    'LingmoAdapter',
 ]
 end
 
